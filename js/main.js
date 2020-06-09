@@ -25,7 +25,7 @@ var daguesh = decode_utf8('\xD6\xBC');
 var conjdict = {"Isg":[sheva,rad1]}
 
 function myFunction() {
-	var a1 = document.getElementById("a1").innerHTML = conjdict["Isg"].join();
+	var a1 = document.getElementById("a1").innerHTML = conjdict["Isg"].join('');
 	var aa1 = document.getElementById("aa1");
 	
 	if (aa1.style.display === "none") {
