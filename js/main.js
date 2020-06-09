@@ -22,7 +22,7 @@ var holem = decode_utf8('\xD6\xB9');
 var qubuts = decode_utf8('\xD6\xBB\x20');
 var daguesh = decode_utf8('\xD6\xBC');
 
-var conjdict = {"Isg":[rad1,qamets,rad2,pataj,rad3,sheva,ת,daguesh,hireq,י]}
+var conjdict = {"Isg":[rad1,qamets,rad2,pataj,rad3,sheva,'ת',daguesh,hireq,'י']}
 
 function myFunction() {
 	var a1 = document.getElementById("a1").innerHTML = conjdict["Isg"].join('');
