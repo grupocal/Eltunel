@@ -43,7 +43,6 @@ const randomperson = person[Math.floor(Math.random() * person.length)];
 function correct() {
 	var a1 = document.getElementById("a1").innerHTML = conjdict['qal']['perfect'][randomperson].join('');}
 function myFunction() {
-	var a1 = document.getElementById("a1").innerHTML = conjdict['qal']['perfect'][randomperson].join('');
 	var aa1 = document.getElementById("aa1");
 	
 	if (aa1.style.display === "none") {
