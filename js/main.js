@@ -18,6 +18,6 @@ function myFunction() {
 	  aa1.style.display = "none";
 	}
 	var a1 = "5"
-	return var a1  
+	return a1  
 		
 	}
