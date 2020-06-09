@@ -39,8 +39,9 @@ var conjdict = {'qal':
 				
 const person = ["Isg","IIsgm","IIsgf","IIIsgm","IIIsgf","Ipl","IIplm","IIplf","IIIplm","IIIplf"];
 
-const randomperson = person[Math.floor(Math.random() * person.length)];
+
 function correct() {
+	const randomperson = person[Math.floor(Math.random() * person.length)];
 	var a1 = document.getElementById("a1").innerHTML = conjdict['qal']['perfect'][randomperson].join('');}
 function myFunction() {
 	var aa1 = document.getElementById("aa1");
