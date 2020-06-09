@@ -9,7 +9,7 @@ var sheva = decode_utf8('\xD6\xB0')
 var conjdict = {"Isg":sheva}
 
 function myFunction() {
-	var a1 = document.getElementById("a1");
+	var a1 = document.getElementById("a1").innerHTML = "New text!";
 	var aa1 = document.getElementById("aa1");
 	
 	if (aa1.style.display === "none") {
@@ -17,7 +17,5 @@ function myFunction() {
 	} else {
 	  aa1.style.display = "none";
 	}
-	var a1 = "5"
-	return a1  
-		
+	
 	}
