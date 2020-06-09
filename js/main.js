@@ -24,16 +24,17 @@ var daguesh = decode_utf8('\xD6\xBC');
 
 var conjdict = {'qal':
 			{'perfect':
-				{"Isg":[rad1,qamets,rad2,pataj,rad3,sheva,"ת",daguesh,hireq,"י"]}
-				{"IIsgm":[rad1,qamets,rad2,pataj,rad3,sheva,"ת",daguesh,qamets]}
-				{"IIsgf":[rad1,qamets,rad2,pataj,rad3,sheva,"ת",daguesh,sheva]}
-				{"IIIsgm":[rad1,qamets,rad2,pataj,rad3]}
-				{"IIIsgf":[rad1,qamets,rad2,sheva,rad3,qamets,"ה"]}
-				{"Ipl":[rad1,qamets,rad2,pataj,rad3,sheva,"נו",daguesh]}
-				{"IIplm":[rad1,sheva,rad2,pataj,rad3,sheva,"ת",daguesh,segol,"ם""]}
-				{"IIplf":[rad1,sheva,rad2,pataj,rad3,sheva,"ת",daguesh,segol,"ן"]}
-				{"IIIplm":[rad1,qamets,rad2,sheva,rad3,"ו",daguesh]}
-				{"IIIplf":[rad1,qamets,rad2,sheva,rad3,"ו",daguesh]}}}
+				{"Isg":[rad1,qamets,rad2,pataj,rad3,sheva,"ת",daguesh,hireq,"י"];
+				 "IIsgm":[rad1,qamets,rad2,pataj,rad3,sheva,"ת",daguesh,qamets];
+"IIsgf":[rad1,qamets,rad2,pataj,rad3,sheva,"ת",daguesh,sheva];
+"IIIsgm":[rad1,qamets,rad2,pataj,rad3];
+"IIIsgf":[rad1,qamets,rad2,sheva,rad3,qamets,"ה"];
+"Ipl":[rad1,qamets,rad2,pataj,rad3,sheva,"נו",daguesh];
+"IIplm":[rad1,sheva,rad2,pataj,rad3,sheva,"ת",daguesh,segol,"ם""];
+"IIplf":[rad1,sheva,rad2,pataj,rad3,sheva,"ת",daguesh,segol,"ן"];
+"IIIplm":[rad1,qamets,rad2,sheva,rad3,"ו",daguesh];
+"IIIplf":[rad1,qamets,rad2,sheva,rad3,"ו",daguesh]}}}
+
 				
 const person = ["Isg","IIsgm","IIsgf","IIIsgm","IIIsgf","Ipl","IIplm","IIplf","IIIplm","IIIplf"];
 
