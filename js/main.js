@@ -30,7 +30,7 @@ var conjdict = {'qal':
 "IIIsgm":[rad1,qamets,rad2,pataj,rad3],
 "IIIsgf":[rad1,qamets,rad2,sheva,rad3,qamets,"ה"],
 "Ipl":[rad1,qamets,rad2,pataj,rad3,sheva,"נו",daguesh],
-"IIplm":[rad1,sheva,rad2,pataj,rad3,sheva,"ת",daguesh,segol,"ם""],
+"IIplm":[rad1,sheva,rad2,pataj,rad3,sheva,"ת",daguesh,segol,"ם"],
 "IIplf":[rad1,sheva,rad2,pataj,rad3,sheva,"ת",daguesh,segol,"ן"],
 "IIIplm":[rad1,qamets,rad2,sheva,rad3,"ו",daguesh],
 "IIIplf":[rad1,qamets,rad2,sheva,rad3,"ו",daguesh]}}}
