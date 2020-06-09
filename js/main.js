@@ -5,9 +5,8 @@ function decode_utf8(s) {
   return decodeURIComponent(escape(s));
 }
 var sheva = decode_utf8('\xD6\xB0');
-var shevax = "x";
 
-var conjdict = {"Isg":shevax}
+var conjdict = {"Isg":sheva}
 
 function myFunction() {
 	var a1 = document.getElementById("a1").innerHTML = conjdict["Isg"];
