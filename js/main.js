@@ -24,12 +24,12 @@ var daguesh = decode_utf8('\xD6\xBC');
 
 var conjdict = {'qal':
 			{'perfect':
-				{"Isg":[rad1,qamets,rad2,pataj,rad3,sheva,"ת",daguesh,hireq,"י"]}
-			 	{"IIsgm":[rad1,qamets,rad2,pataj,rad3,sheva,"ת",daguesh,qamets]}}}}
+				{"Isg":[rad1,qamets,rad2,pataj,rad3,sheva,"ת",daguesh,hireq,"י"],
+			 	 "IIsgm":[rad1,qamets,rad2,pataj,rad3,sheva,"ת",daguesh,qamets]}}}
 
 
 				
-const person = ["Isg","IIsgm","IIsgf","IIIsgm","IIIsgf","Ipl","IIplm","IIplf","IIIplm","IIIplf"];
+const person = ["Isg","IIsgm"];
 
 const randomperson = person[Math.floor(Math.random() * person.length)];
 
