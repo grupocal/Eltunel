@@ -60,10 +60,11 @@ var conjdict = {'qal':
 
 function correct() {
 	var persontest = conjdict['qal']['perfect']
-	var randomperson = function (persontest) {
-    		var keys = Object.keys(persontest);
-    		return persontest[keys[ keys.length * Math.random() << 0]];};
-	var a1 = document.getElementById("a1").innerHTML = conjdict['qal']['perfect'][randomperson].join('');}
+	var randomformm = function (conjdict) {
+    		var keys = Object.keys(conjdict);
+    		return conjdict[keys[ keys.length * Math.random() << 0]];};
+	var a1 = document.getElementById("a1").innerHTML = conjdict['qal']['perfect']['Isg'].join('');}
+	var formm = document.getElementById("formm").innerHTML = randomformm
 
 function myFunction() {
 	var aa1 = document.getElementById("aa1");
