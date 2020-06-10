@@ -34,8 +34,8 @@ var conjdict = {'qal':
                       "IIplf":[rad1,sheva,rad2,pataj,rad3,sheva,"ת",daguesh,segol,"ן"],
                       "IIIplm":[rad1,qamets,rad2,sheva,rad3,"ו",daguesh],
                       "IIIplf":[rad1,qamets,rad2,sheva,rad3,"ו",daguesh]},
-                  {'imperfect':
-                      "Isg":["א",segol,rad1,sheva,rad2,holem,rad3],
+                  'imperfect':
+                  	 {"Isg":["א",segol,rad1,sheva,rad2,holem,rad3],
                       "IIsgm":["ת",daguesh,hireq,rad1,sheva,rad2,holem,rad3],
                       "IIsgf":["ת",daguesh,hireq,rad1,sheva,rad2,sheva,rad3,hireq,"י"],
                       "IIIsgm":["י",hireq,rad1,sheva,rad2,holem,rad3,],
@@ -45,13 +45,13 @@ var conjdict = {'qal':
                       "IIplf":["ת",daguesh,hireq,rad1,sheva,rad2,holem,rad3,sheva,"נ",qamets,"ה"],
                       "IIIplm":["י",hireq,rad1,sheva,rad2,sheva,rad3,"ו",daguesh],
                       "IIIplf":["ת",daguesh,hireq,rad1,sheva,rad2,holem,rad3,sheva,"נ",qamets,"ה"]},
-                  {'participle':
-                       'mascsg': [rad1,"ו",holem,rad2,tsere,rad3]
-                       'femsg':  [rad1,"ו",holem,rad2,segol,rad3,segol,"ת"]
-                       'mascpl': [rad1,"ו",holem,rad2,sheva,rad3,hireq,"ים"]
+                  'participle':
+                  		{'mascsg': [rad1,"ו",holem,rad2,tsere,rad3],
+                       'femsg':  [rad1,"ו",holem,rad2,segol,rad3,segol,"ת"],
+                       'mascpl': [rad1,"ו",holem,rad2,sheva,rad3,hireq,"ים"],
                        'fempl':  [rad1,"ו",holem,rad2,sheva,rad3,"ו",holem,"ת"]},
-                  {'infinitive':
-                       'absolute':[rad1,qamets,rad2,"ו",holem,rad3]
+                  'infinitive':
+                  		{'absolute':[rad1,qamets,rad2,"ו",holem,rad3],
                        'construct':["ל",hireq,rad1,sheva,rad2,holem,rad3]},
                       }}
 
