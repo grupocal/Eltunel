@@ -62,7 +62,7 @@ const person = ["Isg","IIsgm","IIsgf","IIIsgm","IIIsgf","Ipl","IIplm","IIplf","I
 
 
 function correct() {
-	var randomperson = function (conjdict) {
+	var randomperson = function (conjdict['qal']['perfect']) {
     		var keys = Object.keys(conjdict);
     		return conjdict[keys[ keys.length * Math.random() << 0]];};
 	var a1 = document.getElementById("a1").innerHTML = conjdict['qal']['perfect'][randomperson].join('');}
