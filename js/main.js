@@ -60,7 +60,7 @@ var conjdict = {'qal':
 
 function correct() {
 	var persontest = conjdict['qal']['perfect']
-	var randomformm = function (conjdict) {
+	var randomformm = function rf() {
     		var keys = Object.keys(conjdict);
     		return conjdict[keys[ keys.length * Math.random() << 0]];};
 	var a1 = document.getElementById("a1").innerHTML = conjdict['qal']['perfect']['Isg'].join('');}
