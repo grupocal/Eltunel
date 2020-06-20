@@ -5,6 +5,7 @@ function decode_utf8(s) {
   return decodeURIComponent(escape(s));
 }
 
+var testroot = "x";
 var rad1 = "ק"
 var rad2 = "ט"
 var rad3 = "ל"
