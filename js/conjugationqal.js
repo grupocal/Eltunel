@@ -301,7 +301,7 @@ document.getElementById("c4").innerHTML = conjugate(testroot,'qal','imperative',
 document.getElementById("d1").innerHTML = conjugate(testroot,'qal','participle','mascsg');
 document.getElementById("d2").innerHTML = conjugate(testroot,'qal','participle','femsg');
 document.getElementById("d3").innerHTML = conjugate(testroot,'qal','participle','mascpl');
-document.getElementById("d4").innerHTML = conjugate(testroot,'qal','participlee','fempl');
+document.getElementById("d4").innerHTML = conjugate(testroot,'qal','participle','fempl');
 document.getElementById("e1").innerHTML = conjugate(testroot,'qal','infinitive','absolute');
 document.getElementById("e2").innerHTML = conjugate(testroot,'qal','infinitive','construct');
 };
