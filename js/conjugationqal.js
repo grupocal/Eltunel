@@ -269,7 +269,8 @@ var conjdict = {'qal':
                 'absolute':["ה",hireq,"ת",sheva,rad1,pataj,rad2,daguesh,tsere,rad3],
                 'construct':["ל",sheva,"ה",hireq,"ת",sheva,rad1,pataj,rad2,daguesh,tsere,rad3]},},};
 
-function conjugate (root, verbform, time, person){conjdict[verbform][time][person].join('')}
+function conjugate (root, verbform, time, person){var x = conjdict[verbform][time][person].join('');
+                                                  return x;}
 
 window.onload = function() {
 document.getElementById("a1").innerHTML = conjugate(testroot,'qal','perfect','Isg');
