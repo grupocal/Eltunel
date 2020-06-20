@@ -273,7 +273,8 @@ function conjugate (root, verbform, time, person){var x = conjdict[verbform][tim
                                                   return x;}
 
 window.onload = function() {
-document.getElementById("form").innerHTML = 'Qal'
+document.getElementById("root").innerHTML = 'קטל';
+document.getElementById("form").innerHTML = 'Qal';
 document.getElementById("a1").innerHTML = conjugate(testroot,'qal','perfect','Isg');
 document.getElementById("a2").innerHTML = conjugate(testroot,'qal','perfect','IIsgm');
 document.getElementById("a3").innerHTML = conjugate(testroot,'qal','perfect','IIsgf');
