@@ -273,6 +273,7 @@ function conjugate (root, verbform, time, person){var x = conjdict[verbform][tim
                                                   return x;}
 
 window.onload = function() {
+document.getElementById("form").innerHTML = 'Qal'
 document.getElementById("a1").innerHTML = conjugate(testroot,'qal','perfect','Isg');
 document.getElementById("a2").innerHTML = conjugate(testroot,'qal','perfect','IIsgm');
 document.getElementById("a3").innerHTML = conjugate(testroot,'qal','perfect','IIsgf');
@@ -283,4 +284,24 @@ document.getElementById("a7").innerHTML = conjugate(testroot,'qal','perfect','II
 document.getElementById("a8").innerHTML = conjugate(testroot,'qal','perfect','IIplf');
 document.getElementById("a9").innerHTML = conjugate(testroot,'qal','perfect','IIIplm');
 document.getElementById("a10").innerHTML = conjugate(testroot,'qal','perfect','IIIplf');
+document.getElementById("b1").innerHTML = conjugate(testroot,'qal','imperfect','Isg');
+document.getElementById("b2").innerHTML = conjugate(testroot,'qal','imperfect','IIsgm');
+document.getElementById("b3").innerHTML = conjugate(testroot,'qal','imperfect','IIsgf');
+document.getElementById("b4").innerHTML = conjugate(testroot,'qal','imperfect','IIIsgm');
+document.getElementById("b5").innerHTML = conjugate(testroot,'qal','imperfect','IIIsgf');
+document.getElementById("b6").innerHTML = conjugate(testroot,'qal','imperfect','Ipl');
+document.getElementById("b7").innerHTML = conjugate(testroot,'qal','imperfect','IIplm');
+document.getElementById("b8").innerHTML = conjugate(testroot,'qal','imperfect','IIplf');
+document.getElementById("b9").innerHTML = conjugate(testroot,'qal','imperfect','IIIplm');
+document.getElementById("b10").innerHTML = conjugate(testroot,'qal','imperfect','IIIplf');
+document.getElementById("c1").innerHTML = conjugate(testroot,'qal','imperative','IIsgm');
+document.getElementById("c2").innerHTML = conjugate(testroot,'qal','imperative','IIsgf');
+document.getElementById("c3").innerHTML = conjugate(testroot,'qal','imperative','IIplm');
+document.getElementById("c4").innerHTML = conjugate(testroot,'qal','imperative','IIplf');
+document.getElementById("d1").innerHTML = conjugate(testroot,'qal','participle','mascsg');
+document.getElementById("d2").innerHTML = conjugate(testroot,'qal','participle','femsg');
+document.getElementById("d3").innerHTML = conjugate(testroot,'qal','participle','mascpl');
+document.getElementById("d4").innerHTML = conjugate(testroot,'qal','participlee','fempl');
+document.getElementById("e1").innerHTML = conjugate(testroot,'qal','infinitive','absolute');
+document.getElementById("e2").innerHTML = conjugate(testroot,'qal','infinitive','construct');
 };
