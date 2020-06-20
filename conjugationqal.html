@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Qal</title>
+        <title>Conjugation <div id="form">{{form}}</div></title>
     </head>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,11 +13,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="/js/conjugationqal.js"></script>
+    <script src="/static/js/form.js"></script>
     <link rel="stylesheet" type="text/css" href="https://jmgr99.github.io/binyanim/css/main.css">
   </head>
 <div class="full-width-div">
   <img class="image1"  src="/images/header.jpg">
+
+
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" style="color:#ffffff;"><h3>Index</h3></a>
@@ -41,12 +43,16 @@
     </ul>
   </div>
 </nav>
+
+
+
+
     <body>
      <div class="container">
     <br>
-     <div id ="root" ><font color="red">Root:</font> {{root}}
+     <div id ="root" ><font color="red">Root:</font> {{root}}</div>
      <br>
-     <div id ="form" ><font color="red">Form:</font> {{form}}
+     <div id ="form" ><font color="red">Form:</font> {{form}}</div>
      <br>
      <br>
 <h3><p class="text-center">Perfect</p></h3>
@@ -102,43 +108,43 @@
 <table class="table table-dark">
   <tbody>
     <tr>
-      <td class="text-right">{{b1}}</td>
+      <td class="text-right" id="b1">{{b1}}</td>
       <td class="text-right">אני</td>
     </tr>
     <tr>
-      <td class="text-right">{{b2}}</td>
+      <td class="text-right" id="b2">{{b2}}</td>
       <td class="text-right">אתה</td>
     </tr>
     <tr>
-      <td class="text-right">{{b3}}</td>
+      <td class="text-right" id="b3">{{b3}}</td>
       <td class="text-right">את</td>
     </tr>
     <tr>
-      <td class="text-right">{{b4}}</td>
+      <td class="text-right" id="b4">{{b4}}</td>
       <td class="text-right">הוא</td>
     </tr>
     <tr>
-      <td class="text-right">{{b5}}</td>
+      <td class="text-right" id="b5">{{b5}}</td>
       <td class="text-right">היא</td>
     </tr>
      <tr>
-      <td class="text-right">{{b6}}</td>
+      <td class="text-right" id="b6">{{b6}}</td>
       <td class="text-right">אנחנוּ</td>
     </tr>
     <tr>
-      <td class="text-right">{{b7}}</td>
+      <td class="text-right" id="b7">{{b7}}</td>
       <td class="text-right">אתם</td>
     </tr>
     <tr>
-      <td class="text-right">{{b8}}</td>
+      <td class="text-right" id="b8">{{b8}}</td>
       <td class="text-right">אתן</td>
     </tr>
     <tr>
-      <td class="text-right">{{b9}}</td>
+      <td class="text-right" id="b9">{{b9}}</td>
       <td class="text-right">הם</td>
     </tr>
     <tr>
-      <td class="text-right">{{b10}}</td>
+      <td class="text-right" id="b10">{{b10}}</td>
       <td class="text-right">הן</td>
     </tr>
 
@@ -150,19 +156,19 @@
 <table class="table table-dark">
   <tbody>
     <tr>
-      <td class="text-right">{{c1}}</td>
+      <td class="text-right" id="c1">{{c1}}</td>
       <td class="text-right">(אתה)</td>
     </tr>
     <tr>
-      <td class="text-right">{{c2}}</td>
+      <td class="text-right" id="c2">{{c2}}</td>
       <td class="text-right">(את)</td>
     </tr>
     <tr>
-      <td class="text-right">{{c3}}</td>
+      <td class="text-right" id="c3">{{c3}}</td>
       <td class="text-right">(אתם)</td>
     </tr>
     <tr>
-      <td class="text-right">{{c4}}</td>
+      <td class="text-right" id="c4">{{c4}}</td>
       <td class="text-right">(אתן)</td>
     </tr>
     <tr>
@@ -173,19 +179,19 @@
 <table class="table table-dark">
   <tbody>
     <tr>
-      <td class="text-right">{{d1}}</td>
+      <td class="text-right" id="d1">{{d1}}</td>
       <td class="text-right">MascSg</td>
     </tr>
     <tr>
-      <td class="text-right">{{d2}}</td>
+      <td class="text-right" id="d2">{{d2}}</td>
       <td class="text-right">FemSg</td>
     </tr>
     <tr>
-      <td class="text-right">{{d3}}</td>
+      <td class="text-right" id="d3">{{d3}}</td>
       <td class="text-right">MascPl</td>
     </tr>
     <tr>
-      <td class="text-right">{{d4}}</td>
+      <td class="text-right" id="d4">{{d4}}</td>
       <td class="text-right">FemPl</td>
     </tr>
     <tr>
@@ -197,11 +203,11 @@
 <table class="table table-dark">
   <tbody>
     <tr>
-      <td class="text-right">{{e1}}</td>
+      <td class="text-right" id="e1">{{e1}}</td>
       <td class="text-right">Absolute</td>
     </tr>
     <tr>
-      <td class="text-right">{{e2}}</td>
+      <td class="text-right" id="e2">{{e2}}</td>
       <td class="text-right">Construct</td>
     </tr>
   </tbody>
