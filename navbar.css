@@ -1,3 +1,5 @@
 body {
 height: 56px;
 }
+html{height: 56px;}
+.navbar {height: 100%;}
