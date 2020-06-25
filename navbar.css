@@ -3,4 +3,5 @@ height: 56px;
 }
 html{height: 56px;}
 .navbar {height: 56px;}
-.Iframe{height: 56px};
+.Iframe{height: 56px;
+display:block;}
