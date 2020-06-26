@@ -15,11 +15,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="/static/js/form.js"></script>
     <link rel="stylesheet" type="text/css" href="https://jmgr99.github.io/binyanim/css/main.css">
+       <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("index.html"); 
+    });
+    </script> 
   </head>
+
 <div class="full-width-div">
   <img class="image1"  src="/images/header.jpg">
     <body>
-<iframe src="navbar.html" id="Iframe" class='Iframe' scrolling="no" frameborder="0" ></iframe>
+<div id="includedContent"></div>
 <div class="container">
 <h1>Home</h1>
 <a href="#Howtouse">How to use this page</a>
