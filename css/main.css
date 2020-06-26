@@ -19,10 +19,9 @@ body {
 }
 
 .Iframe
-{   position: absolute;
+{   position: relative;
     width: 100%; 
     min-height: 56px;
-    overflow: visible;
 }
 
 .image1{
