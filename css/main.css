@@ -2,7 +2,7 @@ html{margin-top:-40px;
       overflow-x: hidden;}
 body {
   width: 100%;
-  background-color:#e3e3e3;
+  background-color: #e3e3e3;
   font-size: 26px;
 }
 .navbar-brand {color:#FFFFFF;}
@@ -12,7 +12,7 @@ body {
     width: 100%;
     left: 0;
     right: 0;
-    background-color: #e3e3e3;;
+    background-color: #e3e3e3;
     margin-top:0px;
 
 }
