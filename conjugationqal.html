@@ -11,6 +11,9 @@
           $("#includedNavbar").load("navbar.html");
           $("#content").load("/content/conjugationqalcontent.html");});
         </script>
+        <script>
+          function init(){fill();}
+        </script>
         
         
     </head>
@@ -19,7 +22,7 @@
 <img class="image1" src="/images/header.jpg">
 <div id="includedNavbar"></div>
 <div class="container">
-<div id="content" onload= "fill()"</div>
+<div id="content" onload= "init()"</div>
 </div>
 </body>
 </html>
