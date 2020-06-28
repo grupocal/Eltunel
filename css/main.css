@@ -1,4 +1,4 @@
-html{overflow-x: hidden;}
+html{}
 body {
   width: 100%;
   background-color: #e3e3e3 !important;
@@ -26,6 +26,7 @@ body {
 .image1{
   max-width: 100%;
   display: inline;
+  margin-top: 60px;
   }
 
 .container{
