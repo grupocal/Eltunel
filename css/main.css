@@ -3,8 +3,7 @@ body {
   width: 100%;
   background-color: #A0522D !important;
   font-size: 26px;
-  color: #CD853F !important;
-}
+  }
 .navbar-brand {color:#FFFFFF;}
 .full-width-div {
     position: absolute;
@@ -32,7 +31,7 @@ body {
 .container{
   margin-left: 15%;
   margin-right: 15%;
-  background-color:#f3f4f5;
+  background-color: #CD853F !important;
   width : 100%;
   position: relative;
 }
