@@ -1,7 +1,7 @@
 html{}
 body {
   width: 100%;
-  background-color: #e3e3e3 !important;
+  background-color: #A0522D !important;
   font-size: 26px;
 }
 .navbar-brand {color:#FFFFFF;}
@@ -31,7 +31,7 @@ body {
 .container{
   margin-left: 15%;
   margin-right: 15%;
-  background-color:#f5f3f3;
+  background-color:#f3f4f5;
   width : 100%;
   position: relative;
 }
