@@ -1,4 +1,7 @@
 html{}
+.btn {white-space: normal !important;
+      display: inline-block;
+      width: inherit;}
 body {
   width: 100%;
   background-color: #A0522D !important;
